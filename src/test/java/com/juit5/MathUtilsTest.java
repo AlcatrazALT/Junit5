@@ -7,6 +7,7 @@ import org.junit.jupiter.api.condition.OS;
 import static org.junit.jupiter.api.Assertions.*;
 import static org.junit.jupiter.api.Assumptions.*;
 
+@DisplayName("-> Running MathUtils")
 public class MathUtilsTest {
 
     MathUtils mathUtils;
@@ -41,6 +42,31 @@ public class MathUtilsTest {
         int expected = 2;
         int actual = mathUtils.add(1, 1);
         assertEquals(expected, actual, "method should add 2 numbers");
+    }
+
+    @Nested
+    @DisplayName("-> AddTest methods")
+    class AddTest{
+        @Test
+        @DisplayName("-> testAddPositive()")
+        void testAddPositive(){
+            assertEquals(2, mathUtils.add(1,1));
+        }
+
+        @Test
+        @DisplayName("-> testAddNegative()")
+        void testAddNegative(){
+            assertEquals(-2, mathUtils.add(-1,-1));
+        }
+    }
+
+    @Test
+    @DisplayName("test Multiply Method")
+    void testMultiply(){
+        assertAll(
+                () -> assertEquals(4, mathUtils.multiply(2, 2)),
+                () -> assertEquals(0, mathUtils.multiply(2, 0)),
+                () -> assertEquals(10, mathUtils.multiply(2, 5)));
     }
 
     @Test
