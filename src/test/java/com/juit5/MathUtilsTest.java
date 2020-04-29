@@ -9,7 +9,7 @@ public class MathUtilsTest {
     @Test
     void test(){
         MathUtils mathUtils = new MathUtils();
-        int expected = 1;
+        int expected = 2;
         int actual = mathUtils.add(1, 1);
         assertEquals(expected, actual, "method should add 2 numbers");
     }
