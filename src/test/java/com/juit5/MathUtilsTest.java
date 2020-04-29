@@ -1,8 +1,11 @@
 package com.juit5;
 
 import org.junit.jupiter.api.*;
+import org.junit.jupiter.api.condition.EnabledOnOs;
+import org.junit.jupiter.api.condition.OS;
 
 import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assumptions.*;
 
 public class MathUtilsTest {
 
@@ -41,12 +44,16 @@ public class MathUtilsTest {
     }
 
     @Test
+    @EnabledOnOs(OS.LINUX)
     void testDivide() {
         assertThrows(ArithmeticException.class, () -> mathUtils.divide(1, 0), "Divide by zero should throw exception");
     }
 
     @Test
     void testComputeCircleArea() {
+        boolean isTrue = false;
+        assumeTrue(isTrue);
+        System.out.println("After -> assumeTrue(isTrue)");
         assertEquals(314.1592653589793, mathUtils.computeCircleArea(10), "should return right circle area");
     }
 }
