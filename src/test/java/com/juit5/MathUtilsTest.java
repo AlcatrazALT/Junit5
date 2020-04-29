@@ -50,7 +50,9 @@ public class MathUtilsTest {
         @Test
         @DisplayName("-> testAddPositive()")
         void testAddPositive(){
-            assertEquals(2, mathUtils.add(1,1));
+            int expected = 3;
+            int actual = mathUtils.add(1,1);
+            assertEquals(expected, actual, () -> "return -> " + expected + "actual -> " + actual);
         }
 
         @Test
