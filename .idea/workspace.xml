@@ -2,15 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="45914d1e-1ade-4f61-9e52-2cb218e5de5c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.juit5.MathUtilsTest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/com.juit5.MathUtilsTest.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/juit5/MathUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/juit5/MathUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/juit5/MathUtilsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/juit5/MathUtilsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/juit5/MathUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/juit5/MathUtils.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/juit5/MathUtilsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/juit5/MathUtilsTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -66,7 +61,7 @@
     <property name="project.structure.side.proportion" value="0.32762313" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="JUnit.MathUtilsTest.test">
+  <component name="RunManager" selected="JUnit.MathUtilsTest">
     <configuration name="MathUtilsTest" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
       <module name="Junit5" />
       <extension name="coverage">
@@ -117,8 +112,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MathUtilsTest.testDivide" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Junit5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.juit5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.juit5" />
+      <option name="MAIN_CLASS_NAME" value="com.juit5.MathUtilsTest" />
+      <option name="METHOD_NAME" value="testDivide" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MathUtilsTest.testDivide" />
         <item itemvalue="JUnit.MathUtilsTest.test" />
       </list>
     </recent_temporary>
@@ -148,13 +160,21 @@
       <option name="project" value="LOCAL" />
       <updated>1588136219895</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="use maven surefire plugin to run test">
+      <created>1588137192064</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1588137192064</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Run simple test" />
     <MESSAGE value="simple TDD" />
-    <option name="LAST_COMMIT_MESSAGE" value="simple TDD" />
+    <MESSAGE value="use maven surefire plugin to run test" />
+    <option name="LAST_COMMIT_MESSAGE" value="use maven surefire plugin to run test" />
   </component>
   <component name="WindowStateProjectService">
     <state x="-1559" y="-49" width="814" height="776" key="#Intentions" timestamp="1588133521811">
@@ -177,10 +197,10 @@
       <screen x="-1920" y="-97" width="1536" height="824" />
     </state>
     <state x="-1697" y="-47" width="1089" height="774" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824/-1920.-97.1536.824@-1920.-97.1536.824" timestamp="1588136756565" />
-    <state x="-1496" y="-89" key="CommitChangelistDialog2" timestamp="1588136216069">
+    <state x="-1496" y="-89" key="CommitChangelistDialog2" timestamp="1588137189528">
       <screen x="-1920" y="-97" width="1536" height="824" />
     </state>
-    <state x="-1496" y="-89" key="CommitChangelistDialog2/0.0.1536.824/-1920.-97.1536.824@-1920.-97.1536.824" timestamp="1588136216069" />
+    <state x="-1496" y="-89" key="CommitChangelistDialog2/0.0.1536.824/-1920.-97.1536.824@-1920.-97.1536.824" timestamp="1588137189528" />
     <state x="-1269" y="210" width="258" height="210" key="Github.ShareDialog" timestamp="1588132914148">
       <screen x="-1920" y="-97" width="1536" height="824" />
     </state>
@@ -189,22 +209,22 @@
       <screen x="-1920" y="-97" width="1536" height="824" />
     </state>
     <state x="-1284" y="22" key="Github.UntrackedFilesDialog/0.0.1536.824/-1920.-97.1536.824@-1920.-97.1536.824" timestamp="1588132946878" />
-    <state width="1492" height="364" key="GridCell.Tab.0.bottom" timestamp="1588137129404">
+    <state width="1492" height="364" key="GridCell.Tab.0.bottom" timestamp="1588140087328">
       <screen x="-1920" y="-97" width="1536" height="824" />
     </state>
-    <state width="1492" height="364" key="GridCell.Tab.0.bottom/0.0.1536.824/-1920.-97.1536.824@-1920.-97.1536.824" timestamp="1588137129404" />
-    <state width="1492" height="364" key="GridCell.Tab.0.center" timestamp="1588137129404">
+    <state width="1492" height="364" key="GridCell.Tab.0.bottom/0.0.1536.824/-1920.-97.1536.824@-1920.-97.1536.824" timestamp="1588140087328" />
+    <state width="1492" height="364" key="GridCell.Tab.0.center" timestamp="1588140087328">
       <screen x="-1920" y="-97" width="1536" height="824" />
     </state>
-    <state width="1492" height="364" key="GridCell.Tab.0.center/0.0.1536.824/-1920.-97.1536.824@-1920.-97.1536.824" timestamp="1588137129404" />
-    <state width="1492" height="364" key="GridCell.Tab.0.left" timestamp="1588137129403">
+    <state width="1492" height="364" key="GridCell.Tab.0.center/0.0.1536.824/-1920.-97.1536.824@-1920.-97.1536.824" timestamp="1588140087328" />
+    <state width="1492" height="364" key="GridCell.Tab.0.left" timestamp="1588140087328">
       <screen x="-1920" y="-97" width="1536" height="824" />
     </state>
-    <state width="1492" height="364" key="GridCell.Tab.0.left/0.0.1536.824/-1920.-97.1536.824@-1920.-97.1536.824" timestamp="1588137129403" />
-    <state width="1492" height="364" key="GridCell.Tab.0.right" timestamp="1588137129404">
+    <state width="1492" height="364" key="GridCell.Tab.0.left/0.0.1536.824/-1920.-97.1536.824@-1920.-97.1536.824" timestamp="1588140087328" />
+    <state width="1492" height="364" key="GridCell.Tab.0.right" timestamp="1588140087328">
       <screen x="-1920" y="-97" width="1536" height="824" />
     </state>
-    <state width="1492" height="364" key="GridCell.Tab.0.right/0.0.1536.824/-1920.-97.1536.824@-1920.-97.1536.824" timestamp="1588137129404" />
+    <state width="1492" height="364" key="GridCell.Tab.0.right/0.0.1536.824/-1920.-97.1536.824@-1920.-97.1536.824" timestamp="1588140087328" />
     <state x="-1294" y="27" key="RollbackChangesDialog" timestamp="1588132704338">
       <screen x="-1920" y="-97" width="1536" height="824" />
     </state>
@@ -213,18 +233,18 @@
       <screen x="-1920" y="-97" width="1536" height="824" />
     </state>
     <state x="-1658" y="15" width="1114" height="707" key="SettingsEditor/0.0.1536.824/-1920.-97.1536.824@-1920.-97.1536.824" timestamp="1588134747914" />
-    <state x="-1559" y="49" key="Vcs.Push.Dialog.v2" timestamp="1588136221681">
+    <state x="-1559" y="49" key="Vcs.Push.Dialog.v2" timestamp="1588137193997">
       <screen x="-1920" y="-97" width="1536" height="824" />
     </state>
-    <state x="-1559" y="49" key="Vcs.Push.Dialog.v2/0.0.1536.824/-1920.-97.1536.824@-1920.-97.1536.824" timestamp="1588136221681" />
+    <state x="-1559" y="49" key="Vcs.Push.Dialog.v2/0.0.1536.824/-1920.-97.1536.824@-1920.-97.1536.824" timestamp="1588137193997" />
     <state x="-1336" y="94" key="chooseDestDirectoryDialog" timestamp="1588133879562">
       <screen x="-1920" y="-97" width="1536" height="824" />
     </state>
     <state x="-1336" y="94" key="chooseDestDirectoryDialog/0.0.1536.824/-1920.-97.1536.824@-1920.-97.1536.824" timestamp="1588133879562" />
-    <state x="-1455" y="141" key="com.intellij.ide.util.TipDialog" timestamp="1588134452119">
+    <state x="-1455" y="141" key="com.intellij.ide.util.TipDialog" timestamp="1588139165056">
       <screen x="-1920" y="-97" width="1536" height="824" />
     </state>
-    <state x="-1455" y="141" key="com.intellij.ide.util.TipDialog/0.0.1536.824/-1920.-97.1536.824@-1920.-97.1536.824" timestamp="1588134452119" />
+    <state x="-1455" y="141" key="com.intellij.ide.util.TipDialog/0.0.1536.824/-1920.-97.1536.824@-1920.-97.1536.824" timestamp="1588139165056" />
     <state x="-1489" y="48" width="672" height="678" key="search.everywhere.popup" timestamp="1588133931502">
       <screen x="-1920" y="-97" width="1536" height="824" />
     </state>
