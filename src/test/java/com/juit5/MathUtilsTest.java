@@ -8,6 +8,15 @@ public class MathUtilsTest {
 
     @Test
     void test(){
-        System.out.println("this is run test");
+        MathUtils mathUtils = new MathUtils();
+        int expected = 1;
+        int actual = mathUtils.add(1, 1);
+        assertEquals(expected, actual, "method should add 2 numbers");
+    }
+
+    @Test
+    void testComputeCircleArea(){
+        MathUtils mathUtils = new MathUtils();
+        assertEquals(314.1592653589793, mathUtils.computeCircleArea(10), "should return right circle area");
     }
 }
